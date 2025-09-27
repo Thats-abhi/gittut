@@ -9,7 +9,7 @@ public class TestprojectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestprojectApplication.class, args);
 		Calculator c=new Calculator();
-		System.out.println(c.sum(10,11));
+		System.out.println(c.sum(10,12));
 
 	}
 
