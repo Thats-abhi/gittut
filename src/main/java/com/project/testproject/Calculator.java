@@ -35,5 +35,8 @@ public class Calculator {
         }
         return res;
     }
+    public String hello(String name){
+        return "hello "+name;
+    }
 
 }
