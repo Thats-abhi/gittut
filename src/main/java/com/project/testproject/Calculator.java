@@ -20,4 +20,7 @@ public class Calculator {
         }
         return res;
     }
+    public int modulus(int a,int b){
+        return a%b;
+    }
 }
