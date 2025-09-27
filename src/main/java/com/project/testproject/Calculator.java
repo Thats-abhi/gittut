@@ -40,5 +40,9 @@ public class Calculator {
     public String goodMorning(String name){
         return "Good morning "+name;
     }
+    public double paisaDoubleScheme(int teraPaisa){
+          double doubledPaisa = 2.0 * teraPaisa;
+         return doubledPaisa;
+    }
 }
 
