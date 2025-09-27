@@ -1,7 +1,5 @@
 package com.project.testproject;
 
-import static java.util.Collections.swap;
-
 public class Calculator {
     Calculator(){};
     public int sum(int a,int b){
@@ -37,6 +35,7 @@ public class Calculator {
         }
         return res;
     }
+
     public String goodMorning(String name){
         return "Good morning "+name;
     }
@@ -46,3 +45,5 @@ public class Calculator {
     }
 }
 
+
+}
