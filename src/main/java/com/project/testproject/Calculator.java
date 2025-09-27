@@ -39,6 +39,8 @@ public class Calculator {
     public String goodMorning(String name){
         return "Good morning "+name;
     }
+    public boolean guessTheNumber(int number){
+        return number==21;
 }
 
 
