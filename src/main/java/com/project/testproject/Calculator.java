@@ -41,7 +41,11 @@ public class Calculator {
     }
     public boolean guessTheNumber(int number){
         return number==21;
-}
+    }
+    public double paisaDoubleScheme(int teraPaisa){
+        double doubledPaisa = 2.0 * teraPaisa;
+        return doubledPaisa;
+    }
 
 
 }
