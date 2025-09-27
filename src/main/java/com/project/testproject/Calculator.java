@@ -11,4 +11,13 @@ public class Calculator {
     public int multiply(int a,int b){
         return a*b;
     }
+    public int division(int a,int b){
+        int res=0;
+        try{
+            res =  a/b;
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return res;
+    }
 }
