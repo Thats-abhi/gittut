@@ -20,7 +20,20 @@ public class Calculator {
         }
         return res;
     }
-    public int modulus(int a,int b){
-        return a%b;
+    public int gcd(int a,int b){
+        if(a==0) return b;
+        if(b==0) return a;
+        return gcd(a,b%a);//galat hai ye bhai.
     }
+    public int modulus(int a,int b){
+        int res=0;
+        try{
+            res = a%b;
+        }
+        catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return res;
+    }
+
 }
