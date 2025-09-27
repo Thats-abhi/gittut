@@ -37,5 +37,8 @@ public class Calculator {
         }
         return res;
     }
+    public String goodMorning(String name){
+        return "Good morning "+name;
+    }
 }
 
