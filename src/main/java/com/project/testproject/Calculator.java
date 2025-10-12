@@ -45,7 +45,6 @@ public class Calculator {
     }
     public String func1(String arg1){
         System.out.println(arg1);
-        return arg1;
     }
 }
 
