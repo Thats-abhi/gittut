@@ -43,7 +43,12 @@ public class Calculator {
           double doubledPaisa = 2.0 * teraPaisa;
          return doubledPaisa;
     }
+    public String func1(String arg1){
+        System.out.println(arg1);
+        return arg1;
+    }
 }
 
 
-}
+
+
