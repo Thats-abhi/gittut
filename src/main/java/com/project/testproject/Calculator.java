@@ -48,6 +48,7 @@ public class Calculator {
     }
     public String func2(String arg2){
         System.out.println(arg2);
+        return arg2;
     }
 
 }
